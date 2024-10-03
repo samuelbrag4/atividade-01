@@ -1,9 +1,11 @@
 {
   "name": "atividade-01",
   "version": "1.0.0",
-  "description": "Projeto para resolução da atividade peoposta pelo instrutor: Felipe Dev",
+  "description": "Projeto para resolução da atividade proposta pelo instrutor: Felipe Dev",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samuel Braga",
@@ -13,5 +15,10 @@
     "back-end",
     "javascript",
     "node"
-  ]
+  ],
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
 }
