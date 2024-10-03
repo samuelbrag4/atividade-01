@@ -1,5 +1,6 @@
 // Imports
 import { Router } from "express";
+import candidatosRoutes from "./candidatos.routes.js";
 
 // Routes
 const routes = Router();
@@ -8,5 +9,8 @@ const routes = Router();
 routes.get("/", (rec, res) => {
     return res.status(200).send({ message: "Hello, World" });
 });
+
+// Routes - use - Candidatos
+routes.use("/candidatos", candidatosRoutes);
 
 export default routes;
