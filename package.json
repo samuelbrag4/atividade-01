@@ -1,0 +1,17 @@
+{
+  "name": "atividade-01",
+  "version": "1.0.0",
+  "description": "Projeto para resolução da atividade peoposta pelo instrutor: Felipe Dev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Braga",
+  "license": "MIT",
+  "keywords": [
+    "SENAI",
+    "back-end",
+    "javascript",
+    "node"
+  ]
+}
